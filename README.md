@@ -1,2 +1,2 @@
 # expansion-start
-Coming soon version
+Coming soon
