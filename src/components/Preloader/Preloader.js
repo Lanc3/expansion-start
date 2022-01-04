@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Preloader.css";
-
+import backgroundImg from '../../assets/logo.png'
 class Preloader extends Component {
   preloader() {
     let preload = document.querySelector(".preloader");
@@ -20,7 +20,7 @@ class Preloader extends Component {
     return (
       <div className="preloader">
         <div class="spinner_wrap">
-          <div class="spinner" />
+          <img src={backgroundImg}  class="spinner" />
         </div>
       </div>
     );
