@@ -1,8 +1,6 @@
 import React from "react";
-import Link from 'next/link'
-import Image from 'next/image'
 import Tilt from 'react-parallax-tilt';
-import s from '../styles/paralax.css'
+
 interface Props{
  source:string
 }
